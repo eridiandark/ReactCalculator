@@ -1,0 +1,28 @@
+.calculator select, .calculator button, .calculator input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.calculator {
+  display: flex;
+}
+.calculator > * {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+.calculator input {
+  max-width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.calculator .calc_save {
+  margin-left: auto;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+}
+.calculator .calc_save img {
+  height: 22px;
+}
+
+/*# sourceMappingURL=index.css.map */
